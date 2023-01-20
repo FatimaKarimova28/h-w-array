@@ -44,15 +44,27 @@ using System;
 
 
 
-int[] array = new int[] { 1, 2, 9, 4, 5 };
-int[] reverse; 
 
-for (int i = array.Length - 1; i >= 0; i--)
+
+int[] arr = new int[] { 500, 300, 60, 77 };
+
+int temp;
+
+for (int i = arr.Length - 1;i >= 0; i--)
 {
-    Console.WriteLine(array[i]);
+	for (int j = 0; j < arr.Length ; j++)
+	{
+		if (arr[j] > arr[i])
+		{
+			temp = arr[i];
+			arr[i] = arr[j];
+			arr[i] = temp;	
+
+		}
+			
+	}
+	Console.WriteLine(arr[i]);
 }
-
-
 
 
 
