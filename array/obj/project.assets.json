@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ibrah\\source\\repos\\array\\array\\array.csproj",
+      "projectUniqueName": "C:\\Users\\ibrah\\OneDrive\\Desktop\\code\\array\\array\\array.csproj",
       "projectName": "array",
-      "projectPath": "C:\\Users\\ibrah\\source\\repos\\array\\array\\array.csproj",
+      "projectPath": "C:\\Users\\ibrah\\OneDrive\\Desktop\\code\\array\\array\\array.csproj",
       "packagesPath": "C:\\Users\\ibrah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ibrah\\source\\repos\\array\\array\\obj\\",
+      "outputPath": "C:\\Users\\ibrah\\OneDrive\\Desktop\\code\\array\\array\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ibrah\\AppData\\Roaming\\NuGet\\NuGet.Config",

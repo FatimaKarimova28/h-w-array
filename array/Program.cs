@@ -4,7 +4,7 @@ using System;
 // Console.WriteLine("Hello, World!");
 
 
-// int[] array = new int[] { 100, 300, 200, 50 };
+//int[] array = new int[] { 100, 300, 200, 50 };
 //for (int i = 0; i < array.Length; i++)
 //{
 //	int minIndex = i;
@@ -15,12 +15,15 @@ using System;
 //			minIndex = j;
 //		}
 //	}
+//    int k = array[i];
+//    array[i] = array[minIndex];
+//    array[minIndex] = k;
 
-//	int k = array[i];
-//	array[i] = array[minIndex];
-//	array[minIndex] = k;
 
-//	Console.WriteLine(array[i]);
+
+//    Console.WriteLine(array[i]);
+//}
+
 
 
 
@@ -41,12 +44,13 @@ using System;
 
 
 
-//int[] array = new int[] { 1, 2, 3, 4, 5 };
+int[] array = new int[] { 1, 2, 9, 4, 5 };
+int[] reverse; 
 
-//for (int i = array.Length; i >= 0; i --)
-//{
-//    Console.WriteLine(i);
-//}
+for (int i = array.Length - 1; i >= 0; i--)
+{
+    Console.WriteLine(array[i]);
+}
 
 
 
